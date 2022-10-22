@@ -1,0 +1,167 @@
+.starbucks-image {
+    position: relative; top: 10px; left: 270px;
+}
+
+.menu {
+    position: relative; left: 400px; bottom: 30px;
+    font-size: 16px;
+    border: none;
+     
+}
+
+:hover.menu {
+    transition: 1s;
+    color: green;
+     cursor: pointer; 
+}
+
+.cafe {
+    position: relative; left: 450px; bottom: 30px;
+    font-size: 16px;
+    border: none;
+}
+
+:hover.cafe {
+    transition: 1s;
+    color: green;
+    cursor: pointer; 
+}
+
+.experience {
+position: relative; left: 500px; bottom: 30px;
+font-size: 16px;
+border: none;
+}
+
+:hover.experience {
+    transition: 1s;
+    color: green;
+    cursor: pointer; 
+}
+
+.localization {
+    position: relative;bottom: 30px; left: 1100px;
+    font-size: 19px;
+    border: none;
+}
+
+:hover.localization {
+    transition: 1s;
+    color: green;
+    cursor: pointer; 
+}
+
+.cobrakai-drinks {
+    position: relative; left: 200px; bottom: 360px;
+}
+
+.all-valley {
+    position: relative; left: 905px; top: 50px;
+    font-size: 3.125rem;
+    background-color: rgb(55, 99, 55);
+    width:700px ; 
+    height:410px;  
+    text-align: center;
+    color: rgb(212, 197, 197);
+    
+}
+
+.center {
+      display: flex;
+
+}
+
+.information {
+    position: relative; left: 460px; top: 280px;
+    height: 30px;
+    width: 160px;
+    background-color: rgb(55, 99, 55);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border-color: white;
+}
+
+:hover.information {
+    cursor: pointer; 
+}
+
+.starbucks-moments {
+    position: relative; right: 510px; top: 30px;
+}
+
+
+.find {
+    font-size: 15px;
+    position: relative; top: 100px; left: 350px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;   
+}
+
+
+.find{
+    white-space: nowrap;
+    border-right: 3px solid rgb(239, 255, 20);
+    width: 30ch;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: green;
+    animation: texto 2s infinite steps(90), cursor .15s infinite;
+   
+}
+
+
+@keyframes texto {0% {width: 0}}
+@keyframes cursor {50% {border-color: transparent}}
+
+.new {
+    position: relative; bottom: 240px; left: 400px;
+    font-size: 18px;
+    color: green;
+    border-radius: 10px;
+    border-color: green;
+}
+
+:hover.new {
+    cursor: pointer; 
+}
+
+.starbucks-life {
+    position: relative; left: 720px;
+}
+
+.social-medias {
+    position: relative; left: 400px; top: 50px;
+    font-size: 35px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;   
+}
+
+
+.social-medias{
+    white-space: nowrap;
+    border-right: 3px solid rgb(239, 255, 20);
+    width: 30ch;
+    overflow: hidden;
+    color: green;
+    animation: texto 3s infinite steps(90), cursor .15s infinite;
+   
+}
+
+
+@keyframes texto {0% {width: 0}}
+@keyframes cursor {50% {border-color: transparent}}
